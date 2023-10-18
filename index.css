@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+    font-size: 20px;
+    transition: .4s;
+}
+nav button{
+    border: none;
+    background-color: orange;
+    padding: 10px 23px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+nav button:hover{
+    margin-right: 15px;
+}
+
+nav a:hover {
+    padding-left: 20px;
+}
+
+body{
+    background-color: beige;
+    
+}
+.our-work{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10% 20%;
+    padding: 2% 10%;
+    box-shadow: 0 0 10px black;
+}
+
+.our-work button{
+    border: none;
+    background-color: blue;
+    padding: 2% 8%;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.our-work button:hover{
+    background-color: black;
+    color: blue;
+}
+.our-reso{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 1% 19%;
+    padding: 2% 10%;
+    box-shadow: 0 0 10px black;
+}
+
+.our-reso button{
+    border: none;
+    background-color: blue;
+    padding: 2% 8%;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.our-reso button:hover{
+    background-color: black;
+    color: blue;
+}
